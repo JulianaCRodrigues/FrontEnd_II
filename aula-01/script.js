@@ -14,7 +14,7 @@ let userName = prompt ('Olá, qual o seu nome?')
 let userAge = prompt ('Olá, qual a sua idade')
 let userJob = prompt ('Olá, qual é os eu trabalho?')
 
-console.log (`Olá me chamo ${userName} tenho ${userAge} anos e atualmente trabalho com${userJob}`)
+console.log (`Olá me chamo ${userName} tenho ${userAge} anos e atualmente trabalho com ${userJob}`)
 
 alert (`Olá me chamo ${userName} tenho ${userAge} anos e atualmente trabalho com ${userJob}`)
 
