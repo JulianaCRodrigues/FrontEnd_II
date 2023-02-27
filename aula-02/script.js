@@ -3,7 +3,7 @@ function defineVencedorJogo(pontosUsuario, pontosOponente) {
   if (pontosUsuario > pontosOponente) {
     alert("Você ganhou o jogo!");
   } else if (pontosOponente > pontosUsuario) {
-    alert("Você perdeu!");
+    alert("Você perdeu o jogo!");
   } else {
     alert("Deu empate!");
   }
@@ -13,18 +13,23 @@ function defineVencedorJogo(pontosUsuario, pontosOponente) {
 function defineVencedorPartida(JogadaUsuario, jogadaOponente) {
   if (JogadaUsuario === 1 && jogadaOponente === 2) {
     console.log("Você perdeu! ");
+    alert("Você perdeu!");
     return 1;
   } else if (JogadaUsuario === 1 && jogadaOponente === 3) {
     console.log("Você venceu!");
+    alert("Você venceu!");
     return 2;
   } else if (JogadaUsuario === 2 && jogadaOponente === 3) {
     console.log("Você perdeu!");
+    alert("Você perdeu!");
     return 1;
   } else if (JogadaUsuario === jogadaOponente) {
-    console.log("Deu empate!");
+    console.log("Deu empate!")
+    alert("Deu empate!");
     return 0;
   } else {
     console.log("Você venceu!!");
+    alert("Você venceu!");
     return 2;
   }
 }
