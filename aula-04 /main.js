@@ -30,13 +30,13 @@ document.querySelector("#card1");
 
 document.querySelector("#titleCard1");
 
-// obtendo o P do artcile
+// obtendo o P do article
 
 console.log(document.querySelector("#card1 p"));
 
 
 
-// obtendo o segunto artcile sem id ou class
+// obtendo o segunto article sem id ou class
 
 document.querySelector("article:nth-of-type(2)");
 
@@ -78,7 +78,7 @@ document.querySelector("article.diferente p");
 
 
 
-// obtendo o quinto artcile sem id ou class
+// obtendo o quinto article sem id ou class
 
 document.querySelector("article:nth-of-type(5)");
 
@@ -92,7 +92,7 @@ document.querySelector("article:nth-of-type(5) p");
 
 
 
-// obtendo o sexto artcile sem id ou class
+// obtendo o sexto article sem id ou class
 
 document.querySelector("article:nth-of-type(6)");
 
