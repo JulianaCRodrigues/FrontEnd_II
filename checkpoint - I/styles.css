@@ -1,22 +1,149 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: none;
 }
 
 body {
-    height: 100%;
-    background:green;
+  height: 100%;
+  background: green;
 }
 
 .form-group {
-  padding: 12px 12px 42px 42px;
-  /* margin: 12px 12px 42px 12px; */
+  width: 96%;
+  height: 575px;
   display: flex;
+  margin: 12px 12px 42px 12px;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background:gray; 
+  background: #fff;
+  gap: 27px;
+}
+
+.form-group input {
+  width: 372px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group textarea {
+  width: 372px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  resize: none;
+}
+
+.select {
+  background-color: aqua;
+  color: #068016;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(238, 4, 4, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+form button {
+  width: 364px;
+  height: 57px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: none;
+  margin: 0 0 15px 0;
+  padding: 17px;
+}
+
+/* #status-leitura {
+
+} */
+
+
+#root h2 {
+  width: 400px;
+  height: 38px;
+  top: 632px;
+  margin: 12px 12px 12px 12px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#cards-livros {
+ flex-wrap: wrap;
+  width: 406px;
+  height: 512px;
+  margin: 12px 12px 12px 12px;
+  gap: 15px;
+}
+
+
+
+#cards-livros h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+
+}
+
+img {
+  width: 96%;
+  height: 9%;
+  border-radius: 12px;
+  align-items: center;
+  margin: 12px 12px 12px 12px
+  
+}
+
+p {
+  font-family: 'Roboto' sans-serif;
+  font-size: normal;
+  font-family: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+  margin: 12px 12px 12px 12px
+}
+
+@media(min-width: 728px) {
+  header {
+    width: 100%;
+    max-width: 1280px;
+  }
+
+  .form-group {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #root h2 {
+    width: 100%;
+    text-align: center;
+  }
+
 }
